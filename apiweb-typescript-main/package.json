@@ -1,0 +1,24 @@
+{
+  "name": "api-typescript",
+  "version": "1.0.0",
+  "description": "API Web feita com Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Thiago Nóbrega",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
