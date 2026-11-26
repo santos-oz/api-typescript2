@@ -56,4 +56,4 @@ async function updateUsuario(id: number,dadosUsuario: Usuario,): Promise<Usuario
     return resolve(usuarios[usuarioIndex])
   });
 }
-export default { getUsuario, getAllUsuarios, addUsuario, deleteUsuario }; // novas funções
+export default { getUsuario, getAllUsuarios, addUsuario, deleteUsuario, updateUsuario }; // novas funções
