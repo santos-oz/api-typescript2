@@ -10,6 +10,7 @@ router.get("/", usuarioController.getAllUsuarios); // mais generica
 // pois o express avalia as rotas na ordem
 
 router.post("/", usuarioController.postUsuario);
-router.delete("/:id",usuarioController.deleteUsuario);
+router.delete("/:id", usuarioController.deleteUsuario);
+router.patch("/:id", usuarioController.updateUsuario);
 
 export default router;

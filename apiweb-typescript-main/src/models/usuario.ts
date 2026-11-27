@@ -3,7 +3,7 @@
 export default class Usuario {
   id: number;
   nome: string;
-  senha: string;
+  senha: string; 
 
   private static nextId: number = 1;
 

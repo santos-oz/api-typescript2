@@ -17,3 +17,7 @@ src
 
 Para rodar um script criado no package.json usar o comando:
 npm run SCRIPT
+
+
+Proposito:
+Criar, deletar e alterar usuario 
